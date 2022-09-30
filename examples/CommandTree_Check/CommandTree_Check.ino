@@ -16,7 +16,7 @@ variable before registering the commands
 
 
 #include "Arduino.h"
-#include "Vrekrer_scpi_parser.h"
+#include "scpi_parser.h"
 
 SCPI_Parser my_instrument;
 

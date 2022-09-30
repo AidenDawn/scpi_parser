@@ -1,10 +1,10 @@
 /*! 
-@file Vrekrer_scpi_parser.h 
+@file scpi_parser.h 
 Header file.
 */
 
-#ifndef VREKRER_SCPI_PARSER_H_
-#define VREKRER_SCPI_PARSER_H_
+#ifndef SCPI_PARSER_H_
+#define SCPI_PARSER_H_
 
 
 /// Max branch size of the command tree and max number of parameters.
@@ -114,7 +114,7 @@ class SCPI_Message_Buffer : public SCPI_Message_Buffer_ABC{
 };
 
 /*!
-  Main class of the Vrekrer_SCPI_Parser library.
+  Main class of the SCPI_Parser library.
 */
 class SCPI_Parser {
  public:
@@ -197,4 +197,4 @@ class SCPI_Parser {
   unsigned long time_checker_;
 };
 
-#endif //VREKRER_SCPI_PARSER_H_
+#endif //SCPI_PARSER_H_

@@ -41,7 +41,7 @@ This example does not follows the recommended SCPI standard command syntax.
 
 
 #include "Arduino.h"
-#include "Vrekrer_scpi_parser.h"
+#include "scpi_parser.h"
 
 //Digital input pins
 const int DIn[6] = {8, 9, 10, 11, 12, 13};

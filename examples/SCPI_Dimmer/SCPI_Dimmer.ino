@@ -28,7 +28,7 @@ Commands:
 
 
 #include "Arduino.h"
-#include "Vrekrer_scpi_parser.h"
+#include "scpi_parser.h"
 
 SCPI_Parser my_instrument;
 int brightness = 0;

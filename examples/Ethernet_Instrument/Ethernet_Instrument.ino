@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "EEPROM.h"
 #include "EtherCard.h"
-#include "Vrekrer_scpi_parser.h"
+#include "scpi_parser.h"
 
 const int eeprom_eth_data_start = 0;
 const static byte dns[] = {0, 0, 0, 0};
